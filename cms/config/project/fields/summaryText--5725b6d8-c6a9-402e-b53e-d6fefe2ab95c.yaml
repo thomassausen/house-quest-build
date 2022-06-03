@@ -1,0 +1,19 @@
+columnSuffix: jiihknxk
+contentColumnType: text
+fieldGroup: 6603ce5b-da48-49a1-9d4d-c87b6013adf5 # Global
+handle: summaryText
+instructions: null
+name: 'Summary Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

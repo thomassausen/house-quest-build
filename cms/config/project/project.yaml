@@ -1,4 +1,4 @@
-dateModified: 1651529655
+dateModified: 1654254356
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -19,19 +19,30 @@ meta:
     7a591e66-18df-490d-92b5-3fd3a3986f09: default # default
     8f804a45-ad1d-4a71-b0b4-6df2040dc205: Nuts # Nuts
     071aeb2b-e8eb-4bcf-825c-dd016745f107: Flavor # Flavor
+    82c338ea-66de-43ed-802e-626604ddd9b7: 'Rich Text' # Rich Text
     4828c563-32cf-4021-afeb-1d5e38f31daf: 'Accent Color' # Accent Color
+    5725b6d8-c6a9-402e-b53e-d6fefe2ab95c: 'Summary Text' # Summary Text
     6005c2f9-5d85-4442-b712-22e070096ac8: 'Public Schema' # Public Schema
     6359fe58-db81-4ee6-94eb-e9f4e3c61da6: Notes # Notes
+    6603ce5b-da48-49a1-9d4d-c87b6013adf5: Global # Global
+    a5d9ff11-8b8d-44ae-8776-48b47d0b29fe: Homepage # Homepage
+    bb583f64-52ff-45bd-965b-c11df4d28861: Default # Default
     c2e2b69d-127d-4afe-8032-0209247e70de: default # default
+    c466d9f8-759a-44d2-b49c-12a61e650c4d: Homepage # Homepage
     dd87a305-fb8e-4bc0-965b-8afadc876934: Syrup # Syrup
     e7500fc4-6a5e-4656-8947-27c47c0c9dd8: Whip # Whip
     f652db8c-edc2-4a66-8241-2fb0787110ee: 'Primary Color' # Primary Color
     f89601e9-4ba9-4a48-9e99-350aa9914912: default # default
+    f3688253-d601-4bff-b7d5-76377fccc5ec: 'Market News' # Market News
 plugins:
   redactor:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  rich-variables:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true

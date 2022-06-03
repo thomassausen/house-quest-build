@@ -1,0 +1,25 @@
+{% extends '_inc/_layout' %}
+{% block content %}
+      <div class="max-w-full mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8 bg-primary shadow-2xl shadow-secondary border-opacity-50 border-b-8 border-secondary">
+        <div class="text-center">
+          <p
+            class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-4xl"
+          >
+          <a href="/">
+            Olivia Lopez, CRS
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="relative py-16 bg-tertiary overflow-hidden">
+        <div class="relative px-4 sm:px-6 lg:px-8">
+          <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+            <h1>{{ entry.title }}</h1>
+
+            {{ entry.richText}}
+          </div>
+        </div>
+      </div>
+            {% include '_inc/_market-news.twig' %}
+
+{% endblock %}
