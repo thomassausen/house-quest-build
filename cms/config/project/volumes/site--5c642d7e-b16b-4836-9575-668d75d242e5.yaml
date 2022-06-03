@@ -1,0 +1,38 @@
+fieldLayouts:
+  e73b4186-2fad-4c0f-8eae-bbb884932c58:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fs: site
+handle: site
+hasUrls: true
+name: Site
+sortOrder: 0
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+url: '@web/assets/site'

@@ -1,0 +1,41 @@
+dateModified: 1651529655
+email:
+  fromEmail: andrew@nystudio107.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: Site
+    settings:
+      path: '@webroot/assets/site'
+    type: craft\fs\Local
+    url: '@web/assets/site'
+meta:
+  __names__:
+    1f716763-7f9e-4ffd-9f8c-2c0e7ccf15f7: Selected # Selected
+    5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5da841b1-ca0d-46ff-8bb1-04d6c889ac54: English # English
+    7a591e66-18df-490d-92b5-3fd3a3986f09: default # default
+    8f804a45-ad1d-4a71-b0b4-6df2040dc205: Nuts # Nuts
+    071aeb2b-e8eb-4bcf-825c-dd016745f107: Flavor # Flavor
+    4828c563-32cf-4021-afeb-1d5e38f31daf: 'Accent Color' # Accent Color
+    6005c2f9-5d85-4442-b712-22e070096ac8: 'Public Schema' # Public Schema
+    6359fe58-db81-4ee6-94eb-e9f4e3c61da6: Notes # Notes
+    c2e2b69d-127d-4afe-8032-0209247e70de: default # default
+    dd87a305-fb8e-4bc0-965b-8afadc876934: Syrup # Syrup
+    e7500fc4-6a5e-4656-8947-27c47c0c9dd8: Whip # Whip
+    f652db8c-edc2-4a66-8241-2fb0787110ee: 'Primary Color' # Primary Color
+    f89601e9-4ba9-4a48-9e99-350aa9914912: default # default
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: 'Craft CMS'
+  retryDuration: 60
+  schemaVersion: 4.0.0.9
+  timeZone: America/New_York
